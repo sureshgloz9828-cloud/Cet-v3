@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CET PRO | Quiz & Learning</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button class="icon-btn" id="menuBtn">☰</button>
+  <div class="brand">CET <span>PRO</span></div>
+  <button class="theme" id="themeBtn"><i id="themeIcon">☾</i></button>
+</header>
+<div class="drawer" id="drawer">
+  <div class="drawer-panel">
+    <div class="drawer-head"><span>CET PRO</span><button class="icon-btn" id="closeBtn">×</button></div>
+    <a class="drawer-link" href="#" data-nav="home">होम</a>
+    <a class="drawer-link" href="#" data-nav="subjects">सभी विषय</a>
+    <a class="drawer-link" href="#about">हमारे बारे में</a>
+  </div>
+</div>
+<main>
+  <div class="breadcrumb" id="breadcrumb"></div>
+  <h1 id="pageTitle">Choose Your Subject</h1>
+  <p class="subtitle" id="pageSubtitle">अपना विषय चुनें, फिर क्विज़ शुरू करें</p>
+  <input class="search" id="search" type="search" placeholder="विषय खोजें... (जैसे: भूगोल, गणित)">
+  <section class="cards" id="view"></section>
+  <div class="empty" id="empty">कोई विषय नहीं मिला। दोबारा खोजें।</div>
+</main>
+<footer id="about">© 2026 CET PRO · Learn, Practice & Improve</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
